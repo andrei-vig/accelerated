@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accelerated Growth</title>
+  <link href="assets/style.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0a0a0a] text-white font-sans">
+
+<!-- Navigation -->
+<header class="w-full px-6 py-4 flex justify-end items-center max-w-7xl mx-auto sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur" style="margin-top: 50px;">
+  <nav>
+    <ul class="flex gap-6 text-sm text-gray-300 items-center">
+      <li>
+        <a href="#about" class="hover:text-white cursor-pointer font-bold text-[1.3em]">About</a>
+      </li>
+      <li>
+        <a href="#services" class="hover:text-white cursor-pointer font-bold text-[1.3em]">Services</a>
+      </li>
+      <li>
+        <a href="#clients" class="hover:text-white cursor-pointer font-bold text-[1.3em]">Clients</a>
+      </li>
+      <li>
+        <a href="#careers" class="hover:text-white cursor-pointer font-bold text-[1.3em]">Careers</a>
+      </li>
+      <li class="flex items-center"></li>
+        <a href="#contact" class="font-bold text-[1.3em] text-white cursor-pointer bg-transparent px-4 py-1 border border-white rounded-[3px] hover:bg-white hover:text-black hover:border-white transition-colors duration-200">
+          Let’s talk
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Wrapper for scroll snapping -->
+  <div class="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
+
+    <!-- Hero Section -->
+    <section class="relative flex items-center min-h-screen h-screen px-6 py-20 w-[90vw] md:w-[90vw] lg:w-[80vw] max-w-7xl mx-auto snap-start" style="margin-top: 30px;">
+      <div class="max-w-4xl text-left">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-8 fade-in">
+        We turn bold ideas into powerful software products.
+      </h1>
+      <p class="text-xl text-white/80 mb-10 fade-in">
+        Strategy. Design. Development.<br />
+        Everything you need to build and scale.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-in">
+        <button class="bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700">
+        Let's talk
+        </button>
+        <button class="border border-gray-600 px-6 py-3 rounded-lg text-white font-medium hover:bg-gray-800">
+        Our work
+        </button>
+      </div>
+      </div>
+    </section>
+
+    <!-- Pain points -->
+    <section 
+      id="pain-points"
+      class="bg-[#0a0a0a] text-white px-6 py-24 flex items-center justify-center snap-start min-h-screen w-[80vw] mx-auto">
+
+      <div class="max-w-6xl w-full mx-auto flex flex-col items-center justify-center">
+        <!-- Header -->
+        <h2 class="text-4xl md:text-5xl font-semibold mb-6 text-center">
+          Why traditional outsourcing fails
+        </h2>
+        <p class="text-white/70 text-lg max-w-3xl mb-12 text-center">
+          Outsourcing was supposed to accelerate delivery. Too often, it does the opposite. We've seen the pitfalls —
+          and we've built our model to avoid them entirely.
+        </p>
+
+        <!-- Grid of pain points -->
+        <div class="grid md:grid-cols-2 gap-10 text-white/80 text-base mb-16 w-full">
+          <!-- Item 1 -->
+          <div class="flex items-start gap-4">
+            <div class="text-red-500 text-xl">❌</div>
+            <div>
+              <h3 class="font-semibold text-white mb-1">Inexperienced delivery teams</h3>
+              <p>
+                Outsourcing vendors often rely on junior-heavy teams managed through layers of abstraction.
+                You end up with misaligned execution, low accountability, and mediocre output.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="flex items-start gap-4">
+            <div class="text-red-500 text-xl">❌</div>
+            <div>
+              <h3 class="font-semibold text-white mb-1">Poor communication and cultural mismatch</h3>
+              <p>
+                Time zones, unclear communication, and lack of business context make collaboration exhausting.
+                Instead of momentum, you get micromanagement.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="flex items-start gap-4">
+            <div class="text-red-500 text-xl">❌</div>
+            <div>
+              <h3 class="font-semibold text-white mb-1">Minimal ownership, transactional mindset</h3>
+              <p>
+                You brief them — they build. That’s where it ends.
+                There's no critical thinking, no challenge, no commitment to your success beyond the scope.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="flex items-start gap-4">
+            <div class="text-red-500 text-xl">❌</div>
+            <div>
+              <h3 class="font-semibold text-white mb-1">Lack of product thinking</h3>
+              <p>
+                Most vendors focus on outputs — not outcomes. They follow specs but rarely consider user experience,
+                technical trade-offs, or business impact.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing Line -->
+        <h3 class="text-xl md:text-2xl font-semibold mb-2 text-center">
+          Vendor thinking instead of product thinking
+        </h3>
+        <p class="text-white/70 max-w-3xl text-center">
+          You don't need a service provider — you need a partner who understands the product, the market, and the stakes.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- About Us section -->
+    <section id="about" class="bg-[#0a0a0a] text-white px-6 py-24 flex items-center justify-center min-h-screen w-[80vw] mx-auto snap-start">
+      <div class="max-w-5xl w-full mx-auto">
+        <!-- Headline -->
+        <h2 class="text-4xl md:text-5xl font-semibold leading-tight mb-6 text-center">
+          A strategic partner,<br />not just a software vendor.
+        </h2>
+
+        <!-- Subheading -->
+        <p class="text-white/80 text-lg mb-6 text-center">
+          We’re a consultancy that blends senior expertise with execution speed.
+        </p>
+
+        <!-- Body paragraphs -->
+        <div class="text-white/60 space-y-5 text-base leading-relaxed mb-12 text-center">
+          <p>
+            Accelerated Growth is a software consultancy built for companies that expect more from their partners —
+            more ownership, more clarity, and more results.
+          </p>
+          <p>
+            We help organizations move from idea to scalable solution, combining business insight with technical excellence.
+            Our consultants don’t just write code — they challenge assumptions, optimize delivery, and guide decisions that drive growth.
+          </p>
+        </div>
+
+        <!-- Divider -->
+        <hr class="border-white/10 mb-12" />
+
+        <!-- Icon Row -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
+          <!-- Item 1 -->
+          <div class="flex flex-col items-center">
+            <div class="text-white/40 text-2xl mb-2">💡</div>
+            <h3 class="text-white font-semibold text-lg mb-1">Senior consultants</h3>
+            <p class="text-white/60 text-sm">Strategic and technical depth</p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="flex flex-col items-center">
+            <div class="text-white/40 text-2xl mb-2">⚡</div>
+            <h3 class="text-white font-semibold text-lg mb-1">Fast focused delivery</h3>
+            <p class="text-white/60 text-sm">No overhead, no drag</p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="flex flex-col items-center">
+            <div class="text-white/40 text-2xl mb-2">🔁</div>
+            <h3 class="text-white font-semibold text-lg mb-1">Flexible collaboration</h3>
+            <p class="text-white/60 text-sm">Advisory or full build</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- our model works section -->
+    <section class="snap-start min-h-screen bg-[#0a0a0a] text-white px-6 py-24">
+      <div class="max-w-4xl mx-auto">
+
+        <!-- Heading -->
+        <h2 class="text-4xl md:text-5xl font-serif font-semibold leading-tight mb-6">
+          A better model for building great software
+        </h2>
+
+        <!-- Subheading -->
+        <p class="text-white/80 text-lg mb-4">
+          We built Accelerated Growth Lab to solve what traditional outsourcing gets wrong.
+        </p>
+
+        <!-- Description -->
+        <p class="text-white/70 text-base mb-10">
+          We combine the speed and flexibility of nearshore teams with the quality and ownership you'd expect from in-house talent.
+          Our consultants are senior by default — sharp thinkers, strong communicators, and proactive problem solvers.
+        </p>
+
+        <!-- Label -->
+        <h3 class="text-white font-bold text-lg mb-4">What makes our model work:</h3>
+
+        <!-- Checklist as 2x2 grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+          <div class="flex items-start gap-3">
+            <span class="text-green-400 text-xl mt-1">✔</span>
+            <div>
+              <p class="font-semibold text-white">Senior-first delivery</p>
+              <p class="text-white/70 text-sm">No junior-heavy teams. You get top-tier talent with real experience scaling products.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-green-400 text-xl mt-1">✔</span>
+            <div>
+              <p class="font-semibold text-white">Embedded partnership</p>
+              <p class="text-white/70 text-sm">We don't just execute tickets. We act as thought partners — challenging assumptions and driving results.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-green-400 text-xl mt-1">✔</span>
+            <div>
+              <p class="font-semibold text-white">Lean, fast, effective</p>
+              <p class="text-white/70 text-sm">We prioritize clarity, communication, and velocity. No bloat, no bottlenecks — just outcomes.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-green-400 text-xl mt-1">✔</span>
+            <div>
+              <p class="font-semibold text-white">Flexible engagement</p>
+              <p class="text-white/70 text-sm">From strategic advisory to full product delivery, we adapt to your needs.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing Paragraph -->
+        <p class="text-white/70 text-base mb-4">
+          Whether you're a founder with an ambitious roadmap or a CTO scaling your team, we give you the firepower to move fast and stay ahead.
+        </p>
+
+        <!-- CTA Link -->
+        <a href="#contact" class="text-teal-400 font-semibold underline hover:text-teal-300 transition">
+          Let's build something better—together.
+        </a>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="snap-start min-h-screen bg-[#0a0a0a] text-white px-6 py-24 flex items-center justify-center">
+      <div class="w-[80vw] max-w-6xl mx-auto">
+
+        <!-- Headings -->
+        <h2 class="text-4xl md:text-5xl font-serif font-semibold leading-tight mb-4 text-center">
+          Not your typical<br />outsourcing partner
+        </h2>
+        <p class="text-white/70 text-lg mb-12 text-center"></p>
+          We don't just deliver software. We act as a strategic product partner – fast, senior, and fully aligned with your goals.
+        </p>
+
+        <!-- Table -->
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-white border-separate border-spacing-y-6 rounded-lg overflow-hidden">
+            <thead>
+              <tr>
+                <th class="text-base font-semibold text-white/60 w-1/4"></th>
+                <th class="text-base font-semibold text-white">Traditional Outsourcing</th>
+                <th class="text-base font-semibold text-teal-400">Accelerated Growth Lab</th>
+              </tr>
+            </thead>
+            <tbody class="text-white/80 text-sm">
+              <tr>
+                <td class="font-semibold text-white">Team Composition</td>
+                <td>Junior-heavy, layered structure</td>
+                <td class="text-teal-400">Senior consultants only – lean and sharp</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-white">Communication</td>
+                <td>Indirect, delayed, often unclear</td>
+                <td class="text-teal-400">Direct, proactive, transparent</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-white">Delivery Model</td>
+                <td>Rigid sprints, ticket-based delivery</td>
+                <td class="text-teal-400">Fast, iterative, product-driven</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-white">Mindset</td>
+                <td>Vendor: Build what’s asked</td>
+                <td class="text-teal-400">Partner: Challenge, improve, own outcomes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="snap-start min-h-screen bg-[#0a0a0a] text-white px-6 py-24">
+      <div class="max-w-7xl mx-auto">
+
+        <!-- Headings -->
+        <h2 class="text-4xl md:text-5xl font-serif font-semibold leading-tight mb-4">
+          From strategy to delivery – built for impact
+        </h2>
+        <p class="text-white/80 text-lg mb-2">
+          We help you plan, design, and build software that moves your business forward.
+        </p>
+        <p class="text-white/60 text-base mb-8">
+          Whether you need advisory, a full build, or just momentum – we meet you where you are.
+        </p>
+
+        <hr class="border-white/10 mb-12" />
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          
+          <!-- Card 1 -->
+          <div class="bg-[#121212] p-6 rounded-xl shadow-lg border border-white/10">
+            <div class="text-teal-400 text-2xl mb-4">🔍</div>
+            <h3 class="font-semibold text-lg mb-2">Strategy & Advisory</h3>
+            <p class="text-white/70 text-sm">
+              Get clarity before you build. We help define product direction, align teams, and prioritize what matters.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-[#121212] p-6 rounded-xl shadow-lg border border-white/10">
+            <div class="text-teal-400 text-2xl mb-4">✏️</div>
+            <h3 class="font-semibold text-lg mb-2">Product Design</h3>
+            <p class="text-white/70 text-sm">
+              From UX to UI, we turn business needs into intuitive, beautiful digital experiences. Always user-first. Always pragmatic.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-[#121212] p-6 rounded-xl shadow-lg border border-white/10">
+            <div class="text-teal-400 text-2xl mb-4">⚙️</div>
+            <h3 class="font-semibold text-lg mb-2">Engineering & Delivery</h3>
+            <p class="text-white/70 text-sm">
+              Build fast, ship right. Senior engineers who deliver clean, scalable software with startup speed.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Footer Copy -->
+        <p class="text-white text-base">
+          Need a mix? Most of our clients do.<br />
+          <span class="text-white/70">We tailor each engagement – from hands-on execution to strategic oversight</span>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="snap-start min-h-screen bg-[#0a0a0a] text-white px-6 py-24">
+      <div class="max-w-6xl mx-auto text-center">
+
+        <!-- Heading -->
+        <h2 class="text-4xl md:text-5xl font-semibold leading-tight mb-4">
+          What our clients say<br class="hidden md:block" /> about working with us
+        </h2>
+        <p class="text-white/70 text-base mb-12">
+          Real stories from product leaders, founders, and CTOs we've partnered with.
+        </p>
+
+        <!-- Testimonial Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mb-16">
+          <!-- Testimonial 1 -->
+          <div>
+            <div class="text-teal-400 text-3xl mb-2">“</div>
+            <p class="text-white text-lg mb-4 leading-relaxed">
+              Accelerated Growth felt like an extension of our own product team.
+            </p>
+            <p class="font-semibold">Anna Larsson</p>
+            <p class="text-white/60 text-sm">Head of Product</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div>
+            <div class="text-teal-400 text-3xl mb-2">“</div>
+            <p class="text-white text-lg mb-4 leading-relaxed">
+              They delivered faster and better than any agency we've worked with.
+            </p>
+            <p class="font-semibold">Tobias Eriksson</p>
+            <p class="text-white/60 text-sm">CTO, Vert</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div>
+            <div class="text-teal-400 text-3xl mb-2">“</div>
+            <p class="text-white text-lg mb-4 leading-relaxed">
+              Incredibly sharp consultants. They proactively solved problems and pushed our product forward.
+            </p>
+            <p class="font-semibold">Sara Lindberg</p>
+            <p class="text-white/60 text-sm">Co-founder, Norden</p>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div>
+            <div class="text-teal-400 text-3xl mb-2">“</div>
+            <p class="text-white text-lg mb-4 leading-relaxed">
+              It never felt like outsourcing. It felt like we hired a superpowered product team overnight.
+            </p>
+            <p class="font-semibold">Jonas Falk</p>
+            <p class="text-white/60 text-sm">CEO, Swyft</p>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <p class="text-white/80 mb-4 text-lg">Ready to see the results for yourself?</p>
+        <a href="#contact" class="inline-block bg-teal-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-teal-400 transition">
+          Let’s build it together →
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="snap-start min-h-screen bg-[#0a0a0a] text-white px-6 py-24">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+        <!-- Left: Map -->
+        <div class="w-full h-[400px] md:h-full rounded-lg overflow-hidden shadow-lg">
+          <!-- Replace with your actual embedded map or a styled SVG -->
+          <iframe
+            class="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8438216763033!2d144.95373631531555!3d-37.8162799797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f3aee1a5%3A0x2c3c0f0c2a3e0c31!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1634388872936!5m2!1sen!2sau"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div>
+          <h3 class="text-lg text-white/70 font-medium mb-2">Contact Us</h3>
+          <h2 class="text-4xl font-semibold mb-4 leading-tight">Have a project in mind?</h2>
+          <p class="text-white/70 mb-8">
+            Let’s build it together. Whether you’re starting from scratch or scaling up, we’re ready when you are.
+          </p>
+
+          <form class="space-y-4">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full bg-transparent border border-white/20 text-white px-4 py-3 rounded-md placeholder-white/40 focus:outline-none focus:border-teal-400"
+            />
+            <input
+              type="text"
+              placeholder="Company Name"
+              class="w-full bg-transparent border border-white/20 text-white px-4 py-3 rounded-md placeholder-white/40 focus:outline-none focus:border-teal-400"
+            />
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="w-full bg-transparent border border-white/20 text-white px-4 py-3 rounded-md placeholder-white/40 focus:outline-none focus:border-teal-400"
+            />
+            <textarea
+              rows="4"
+              placeholder="Message"
+              class="w-full bg-transparent border border-white/20 text-white px-4 py-3 rounded-md placeholder-white/40 focus:outline-none focus:border-teal-400"
+            ></textarea>
+
+            <button
+              type="submit"
+              class="bg-green-600 text-white font-semibold px-6 py-3 rounded-md hover:bg-green-500 transition"
+            >
+              Send Message
+            </button>
+          </form>
+
+          <p class="text-white/50 mt-4 text-sm">
+            We typically respond within one business day.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer" class="snap-start min-h-[30vh] bg-[#0a0a0a] text-white px-6 py-24">
+    <footer class="bg-[#0a0a0a] text-white border-t border-white/10 px-6 py-16">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+
+        <!-- Column 1: Logo + Brand -->
+        <div>
+          <img src="/images/logo.svg" alt="Accelerated Growth Logo" class="h-10 mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Accelerated Growth</h3>
+          <p class="text-white/60 text-sm leading-relaxed">
+            Helping you build faster, better, smarter.<br />
+            We partner with founders and tech leaders to deliver real outcomes.
+          </p>
+        </div>
+
+        <!-- Column 2: Get in Touch -->
+        <div>
+          <h4 class="text-sm font-semibold mb-4 uppercase tracking-wide text-white/70">Get in touch</h4>
+          <ul class="space-y-2 text-sm text-white/70">
+            <li>
+              📧 <a href="mailto:hello@acceleratedgrowth.com" class="hover:text-white transition">hello@acceleratedgrowth.com</a>
+            </li>
+            <li>
+              📞 <a href="tel:+1234567890" class="hover:text-white transition">+1 (234) 567-890</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 3: LinkedIn -->
+        <div>
+          <h4 class="text-sm font-semibold mb-4 uppercase tracking-wide text-white/70">Connect</h4>
+          <ul class="space-y-2 text-sm text-white/70">
+            <li>
+              💼 <a href="https://linkedin.com/company/accelerated-growth" target="_blank" rel="noopener" class="hover:text-white transition">
+                LinkedIn Profile
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4: HQ Address -->
+        <div>
+          <h4 class="text-sm font-semibold mb-4 uppercase tracking-wide text-white/70">Headquarters</h4>
+          <address class="not-italic text-sm text-white/70 leading-relaxed">
+            Accelerated Growth Lab SRL<br />
+            Strada Exemplu 42<br />
+            Bucharest, Romania<br />
+            VAT ID: RO12345678
+          </address>
+        </div>
+
+        <!-- Column 5: Navigation -->
+        <div>
+          <h4 class="text-sm font-semibold mb-4 uppercase tracking-wide text-white/70">Menu</h4>
+          <ul class="space-y-2 text-sm text-white/70">
+            <li><a href="#about" class="hover:text-white transition">About</a></li>
+            <li><a href="#services" class="hover:text-white transition">Services</a></li>
+            <li><a href="#clients" class="hover:text-white transition">Clients</a></li>
+            <li><a href="#careers" class="hover:text-white transition">Careers</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="mt-12 text-center text-xs text-white/40">
+        © 2025 Accelerated Growth Lab SRL. All rights reserved.
+      </div>
+    </footer>
+    </section>
+
+
+  </div>
+
+  <script src="assets/script.js"></script>
+
+</body>
+</html>

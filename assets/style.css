@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.hero-heading {
+  @apply text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-8 fade-in;
+}
+
+.hero-subtext {
+  @apply text-xl text-white/80 mb-10 fade-in;
+}
+
+.hero-buttons {
+  @apply flex flex-wrap gap-4 justify-center fade-in;
+}
+
+.btn-primary {
+  @apply bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700;
+}
+
+.btn-secondary {
+  @apply border border-gray-600 px-6 py-3 rounded-lg text-white font-medium hover:bg-gray-800;
+}
